@@ -13,7 +13,7 @@ const Login = () => {
     
     return (
         <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 to-purple-500 dark:bg-gray-900 p-4">
-            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg w-full max-w-md p-6 md:p-8 lg:p-10">
+            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg w-full max-w-md p-6 md:p-8 lg:p-10 focus:outline-none focus:ring-2 focus:focus:ring-blue-500">
                 <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center text-gray-900 dark:text-gray-200 mb-6">Log in</h1>
                 <form className="space-y-4">
                     <div>
